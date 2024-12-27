@@ -1,0 +1,167 @@
+/* src/components/CpuSchedulerVisualizer.css */
+
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .scheduler-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #444;
+    font-size: 18px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  input[type="number"] {
+    margin: 5px 0;
+    padding: 5px;
+    width: 120px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  thead {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .chart-section {
+    margin-top: 20px;
+  }
+  
+  .chart-section h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  button.add-task {
+    background-color: #007bff;
+  }
+  
+  button.add-task:hover {
+    background-color: #0069d9;
+  }
+  
+  button.visualize {
+    background-color: #28a745;
+    margin-left: 10px;
+  }
+  
+  button.visualize:hover {
+    background-color: #218838;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .radio-group label {
+    margin-bottom: 5px;
+  }
+  
+  button.add-task, button.visualize {
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+  }
+  
+  .table-container {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .table-container table {
+    background-color: #f8f9fa;
+  }
+  
+  .legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .legend span {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .legend .blue {
+    color: blue;
+  }
+  
+  .legend .green {
+    color: green;
+  }
+  
+  .legend .red {
+    color: red;
+  }
+  
